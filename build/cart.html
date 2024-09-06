@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cart</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" media="all" href="css/app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  </head>
+  <body><!--BEGIN out-->
+    <div class="out">
+      <nav class="nav">
+        <div class="container">
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a href="catalog" class="nav-link">каталог</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="about" class="nav-link">о нас</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="page.html"><svg class="icon icon-home ">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg></a>
+            </li>
+            <li class="nav-list__item">
+              <a href="profile" class="nav-link">профиль</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="cart" class="nav-link">корзина</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="menu-sections">
+        <div id="catalog" class="content-section">
+          <div class="content-section__wrap list-1">
+            <h2 class="content-section__title">Категории</h2>
+            <ul class="content-section__list">
+              <li class="content-section__item">
+                <a href="products.html">Все</a>
+              </li>
+              <li class="content-section__item">
+                <a href="arts.html">Art’s</a>
+              </li>
+              <li class="content-section__item">
+                <a href="#">Верхняя одежда</a>
+              </li>
+              <li class="content-section__item">
+                <a href="#">Худи & Свитшоты</a>
+              </li>
+              <li class="content-section__item">
+                <a href="#">Футболки &<br>Рубашки</a>
+              </li>
+              <li class="content-section__item">
+                <a href="#">Брюки & Джинсы</a>
+              </li>
+              <li class="content-section__item">
+                <a href="#">Аксессуары</a>
+              </li>
+            </ul>
+          </div>
+          <div class="content-section__wrap list-2">
+            <a href="gallery.html" class="content-section__title">
+              <img src="./icons/gallery.svg" alt="">
+              <span>Галерея</span>
+            </a>
+          </div>
+          <div class="content-section__wrap list-3">
+            <h2 class="content-section__title">Коллекции</h2>
+            <ul class="content-section__list">
+              <li class="content-section__item">
+                <a href="#">The Frame</a>
+              </li>
+              <li class="content-section__item">
+                <a href="#">The Travel</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="about" class="content-section content-section--about">
+          <div class="content-section__wrap">
+            <div class="content-section__logo-wrap"><svg class="icon icon-home ">
+                <use xlink:href="img/sprite.svg#icon-home"></use>
+              </svg><svg class="icon icon-logo-black ">
+                <use xlink:href="img/sprite.svg#icon-logo-black"></use>
+              </svg></div>
+            <ul class="content-section__dropdown-list">
+              <li class="content-section__dropdown-item">
+                <div>
+                  <span>Быстрая связь</span>
+                  <div class="arrow"></div>
+                </div>
+                <ul class="content-section__dropdown-body">
+                  <li>
+                    <a href="#">+7 912 645 0818</a>
+                  </li>
+                  <li>
+                    <a href="#">TELEGRAM</a>
+                  </li>
+                  <li>
+                    <a href="#">WHATSAPP</a>
+                  </li>
+                  <li>
+                    <a href="#">INFO@ALEXVENREY.RU</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="content-section__dropdown-item">
+                <div>
+                  <span>Магазин</span>
+                  <div class="arrow"></div>
+                </div>
+                <ul class="content-section__dropdown-body">
+                  <li>
+                    <a href="#">Каталог</a>
+                  </li>
+                  <li>
+                    <a href="#">О бренде</a>
+                  </li>
+                  <li>
+                    <a href="#">Блог</a>
+                  </li>
+                  <li>
+                    <a href="#">Реквизиты</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="content-section__dropdown-item">
+                <div>
+                  <span>Покупателям</span>
+                  <div class="arrow"></div>
+                </div>
+                <ul class="content-section__dropdown-body">
+                  <li>
+                    <a href="#">Доставка и оплата</a>
+                  </li>
+                  <li>
+                    <a href="#">Обмен и возврат</a>
+                  </li>
+                  <li>
+                    <a href="#">Состав и уход</a>
+                  </li>
+                  <li>
+                    <a href="#">Size guide</a>
+                  </li>
+                  <li>
+                    <a href="#">Документы</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="content-section__dropdown-item">
+                <div>
+                  <span>Художникам</span>
+                  <div class="arrow"></div>
+                </div>
+                <ul class="content-section__dropdown-body">
+                  <li>
+                    <a href="#">Условия сотрудничества</a>
+                  </li>
+                  <li>
+                    <a href="#">FAQ</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="content-section__social-list">
+              <li class="content-section__social-item">
+                <a href="#">
+                  <img src="./icons/instagram.svg" alt="">
+                </a>
+              </li>
+              <li class="content-section__social-item">
+                <a href="#">
+                  <img src="./icons/telegram.svg" alt="">
+                </a>
+              </li>
+              <li class="content-section__social-item">
+                <a href="#">
+                  <img src="./icons/vk.svg" alt="">
+                </a>
+              </li>
+              <li class="content-section__social-item">
+                <a href="#">
+                  <img src="./icons/x.svg" alt="">
+                </a>
+              </li>
+              <li class="content-section__social-item">
+                <a href="#">
+                  <img src="./icons/youtube.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="content-section__newsletter form-group">
+            <p>Подпишитесь на рассылку и узнавайте первыми об акциях и новых коллекциях</p>
+            <input type="email" placeholder="Ваш email...">
+            <ul class="content-section__newsletter-list">
+              <li>
+                <a href="#">Политика конфиденциальности</a>
+              </li>
+              <li>Все права защищены</li>
+              <li>Alex Venrey, 2024</li>
+            </ul>
+          </div>
+        </div>
+        <div id="profile" class="content-section content-section--profile">
+          <ul class="content-section__profile-list">
+            <li class="content-section__profile-item">
+              <a href="wardrobe.html">
+                <img src="./icons/shoppingbag.svg" alt="">
+                <span>Мой гардероб</span>
+              </a>
+            </li>
+            <li class="content-section__profile-item">
+              <a href="wishlist.html">
+                <img src="./icons/hearth.svg" alt="">
+                <span>Вишлист</span>
+              </a>
+            </li>
+            <li class="content-section__profile-item">
+              <a href="orders.html">
+                <img src="./icons/truck.svg" alt="">
+                <span>Заказы</span>
+              </a>
+            </li>
+            <li class="content-section__profile-item">
+              <a href="personal-data.html">
+                <img src="./icons/edit.svg" alt="">
+                <span>Данные</span>
+              </a>
+            </li>
+            <li class="content-section__profile-item">
+              <a href="payment.html">
+                <img src="./icons/payment.svg" alt="">
+                <span>Оплата</span>
+              </a>
+            </li>
+            <li class="content-section__profile-item">
+              <img src="./icons/cover.svg" alt="">
+            </li>
+          </ul>
+        </div>
+        <div id="cart" class="content-section content-section--profile">
+          <div class="cart-wrapper">
+            <ul id="products-wrapper" class="products-wrapper products-wrapper__column">
+              <li class="products-wrapper__item fade">
+                <div class="products-wrapper__img-wrap">
+                  <img src="./img/card-1.png">
+                </div>
+                <div class="products-wrapper__info">
+                  <a href="./products-d.html?id=id">Куртка джинсовая</a>
+                  <p>Под заказ</p>
+                  <span>100 000 ₽</span>
+                  <div class="products-wrapper__info-actions">
+                    <button type="button" class="btn added products-wrapper__btn">
+                      <img src="./icons/remove-icon.svg" alt="">
+                    </button>
+                    <button type="button" class="btn btn--black products-wrapper__btn add-to-cart">Купить</button>
+                  </div>
+                </div>
+              </li>
+              <li class="products-wrapper__item fade">
+                <div class="products-wrapper__img-wrap">
+                  <img src="./img/card-art-1.png">
+                </div>
+                <div class="products-wrapper__info">
+                  <a href="./products-d.html?id=id">ART</a>
+                  <p>mrcallaby</p>
+                  <span>100 000 ₽</span>
+                  <div class="products-wrapper__info-actions">
+                    <button type="button" class="btn added products-wrapper__btn">
+                      <img src="./icons/remove-icon.svg" alt="">
+                    </button>
+                    <button type="button" class="btn btn--black products-wrapper__btn add-to-cart">Купить</button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <button type="button" class="btn btn--primary">Сохранить</button>
+          </div>
+        </div>
+      </div>
+      <main>
+        <section class="section">
+          <div class="container">
+            <div class="cart padd-t padd-b">
+              <div class="cart-wrapper">
+                <ul id="products-wrapper" class="products-wrapper products-wrapper__column">
+                  <li class="products-wrapper__item fade">
+                    <div class="products-wrapper__img-wrap">
+                      <img src="./img/card-1.png">
+                    </div>
+                    <div class="products-wrapper__info">
+                      <a href="./products-d.html?id=id">Куртка джинсовая</a>
+                      <p>Под заказ</p>
+                      <span>100 000 ₽</span>
+                      <div class="products-wrapper__info-actions">
+                        <button type="button" class="btn added products-wrapper__btn">
+                          <img src="./icons/remove-icon.svg" alt="">
+                        </button>
+                        <button type="button" class="btn btn--black products-wrapper__btn add-to-cart">Купить</button>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="products-wrapper__item fade">
+                    <div class="products-wrapper__img-wrap">
+                      <img src="./img/card-art-1.png">
+                    </div>
+                    <div class="products-wrapper__info">
+                      <a href="./products-d.html?id=id">ART</a>
+                      <p>mrcallaby</p>
+                      <span>100 000 ₽</span>
+                      <div class="products-wrapper__info-actions">
+                        <button type="button" class="btn added products-wrapper__btn">
+                          <img src="./icons/remove-icon.svg" alt="">
+                        </button>
+                        <button type="button" class="btn btn--black products-wrapper__btn add-to-cart">Купить</button>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <button type="button" class="btn btn--primary">Сохранить</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div><!--END out--><!--LOAD SCRIPTS-->
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
